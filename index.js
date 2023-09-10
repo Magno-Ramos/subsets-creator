@@ -29,6 +29,7 @@ function generateExclusiveSubSets(mainSet) {
     // final sub set of items
     const finalSubSet = [];
 
+    // loop the main set
     for (let index = 0; index < mainSet.length; index++) {
         const element = mainSet[index];
 
